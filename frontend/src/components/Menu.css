@@ -1,0 +1,159 @@
+.menu-filter {
+    margin: 30px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.menu-filter button {
+    background: #e74c3c;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+    
+    
+}
+
+.menu-filter button:hover {
+    background: #c0392b;
+}
+
+#menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+    
+}
+
+
+.menu-item {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+
+.menu-item h3 {
+    color: #2c3e50;
+}
+
+.menu-item p {
+    color: #7f8c8d;
+}
+
+.price {
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+.cart-controls button {
+    margin: 5px;
+    padding: 5px 10px;
+  }
+  
+  .remove-btn {
+    
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+  }
+  .menu-container, .cart-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .menu-item, .cart-item {
+    border: 2px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    width: 250px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-item img, .cart-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .cart-controls button {
+    margin: 10px;
+    padding: 5px 10px;
+  }
+  .buttons{
+    background-color: red;
+    color: white;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+  }
+
+  .buttons:hover{
+    background-color: brown;
+  }
+  .Order-btn{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+
+  }
+  .btn{
+    margin-left: 50px;
+    border-radius: 10px;
+    
+  }
+  
+  .card-text{
+    margin-left: 50px;
+  }
+  .card-title{
+    margin-left: 50px;
+  }
+  .cart-controls{
+    margin-left: 50px;
+  }
+  .btn1{
+    
+
+    color: white;
+    border: none;
+    padding: 6px;
+    cursor: pointer;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    margin-left: 70px;
+
+  }
+  .card-img-top{
+    height: 200px;
+  }
+  
+  
